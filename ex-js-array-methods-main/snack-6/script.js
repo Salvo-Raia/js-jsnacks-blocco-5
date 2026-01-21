@@ -11,4 +11,12 @@ const zucchine = [
   { type: 'Calabrese', weight: 14, length: 4 },
 ];
 
-// A partire dall'array fornito, crea due array. Uno con le zucchine più lunghe di almeno 15cm. L'altro con le restanti.
+const {zucchineLunghe, zucchineCorte} = zucchine.reduce((acc, zucchina) => {
+    (zucchina.length >= 15) ? acc.zucchineLunghe.push(zucchina) : acc.zucchineCorte.push(zucchina);
+    return acc;
+  },
+  {zucchineLunghe: [], zucchineCorte: []}
+);
+
+console.table(zucchineLunghe);
+console.table(zucchineCorte); 
