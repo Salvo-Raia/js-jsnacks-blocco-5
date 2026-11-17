@@ -1,15 +1,17 @@
-![Boolean Tech Academy](https://img.shields.io/badge/Boolean_Tech_Academy-001632?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 29/50 - JavaScript Array Methods Snacks
+# 🎓 Exercise 29/50: JavaScript Array Methods Snacks
+
+Practicing JavaScript array methods to iterate, transform, filter, and search arrays of values and objects, using forEach(), map(), filter(), and find().
 
 ## 📌 Project Overview
 
-| Property   | Details               |
-| :--------- | :-------------------- |
+| Property | Details |
+|:--|:--|
 | Repository | `js-jsnacks-blocco-5` |
-| Category   | Boolean Tech Academy  |
-| Type       | Exercise              |
-| Exercise   | 29/50                 |
+| Category | Boolean Tech Academy |
+| Type | Exercise |
+| Exercise | 29/50 |
 
 ## 🎯 Assignment
 
@@ -18,7 +20,7 @@ Use the supplied exercise folder to create a new GitHub repository.
 Then solve the following JavaScript snacks using whichever **array methods** you
 consider most appropriate.
 
-### Snack 1 - Print Names
+#### Snack 1 - Print Names
 
 Given the following array:
 
@@ -34,7 +36,7 @@ Print all the names to the console.
 ("Edoardo", "Simone", "Francesco");
 ```
 
-### Snack 2 - Print Names from Objects
+#### Snack 2 - Print Names from Objects
 
 Given the following array of objects:
 
@@ -54,7 +56,7 @@ Print all the names to the console.
 ("Paolo", "Giulia", "Marco");
 ```
 
-### Snack 3 - Increment Numbers
+#### Snack 3 - Increment Numbers
 
 Given the following array:
 
@@ -70,7 +72,7 @@ Create a new array in which every number is incremented by 1.
 [3, 9, 5, 8, 3, 88];
 ```
 
-### Snack 4 - Extract Authors
+#### Snack 4 - Extract Authors
 
 Given the following array of posts:
 
@@ -91,7 +93,7 @@ Create a new array containing the names of all the authors.
 ["Marco", "Luca", "Fabrizio", "Enrico"];
 ```
 
-### Snack 5 - Filter Even Numbers
+#### Snack 5 - Filter Even Numbers
 
 Given the following array:
 
@@ -107,7 +109,7 @@ Create a new array containing only the even numbers from the original array.
 [2, 8, 4, 12];
 ```
 
-### Snack 6 - Filter Zucchini by Length
+#### Snack 6 - Filter Zucchini by Length
 
 Given the following array:
 
@@ -131,7 +133,7 @@ Starting from the provided array, create two separate arrays:
 - One containing zucchini that are **at least 15 cm long**.
 - Another containing all the remaining zucchini.
 
-### Snack 7 - Find a Student by ID
+#### Snack 7 - Find a Student by ID
 
 Given the following array:
 
@@ -166,7 +168,7 @@ Retrieve the student whose ID is `2`.
 { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 ```
 
-### Snack 8 - Find a Student's Class
+#### Snack 8 - Find a Student's Class
 
 Given the following array:
 
@@ -217,5 +219,4 @@ Retrieve the class of the student named **Marco Lanci**.
 
 ## ©️ Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development
-course - Class 152 - Year 2025-2026
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
