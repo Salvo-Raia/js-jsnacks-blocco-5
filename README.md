@@ -1,19 +1,16 @@
 ![Static Badge](https://img.shields.io/badge/Boolean_Tech_Academy-1565C0?style=for-the-badge)
 
-# 🎓 Exercise 29/50: JavaScript Array Methods Snacks
+# Exercise 29/50: JavaScript Array Methods Snacks
 
 Practicing JavaScript array methods to iterate, transform, filter, and search arrays of values and objects, using forEach(), map(), filter(), and find().
 
-## 📌 Project Overview
+## Project overview
 
-| Property | Details |
-|:--|:--|
-| Repository | `js-jsnacks-blocco-5` |
-| Category | Boolean Tech Academy |
-| Type | Exercise |
-| Exercise | 29/50 |
+| Repository | Project | Category | Main Focus | Exercise |
+|:--|:--|:--|:--|:--|
+| js-jsnacks-blocco-5 | JavaScript Array Methods Snacks | Exercise | JavaScript array methods & Data transformation | 29/50 |
 
-## 🎯 Assignment
+## Assignment
 
 Use the supplied exercise folder to create a new GitHub repository.
 
@@ -203,11 +200,11 @@ Retrieve the class of the student named **Marco Lanci**.
 "3C";
 ```
 
-## 🛠️ Technologies
+## Technologies
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-## 💡 What I Learned
+## What I learned
 
 - Iterating over arrays using `forEach()`.
 - Transforming arrays with `map()`.
@@ -217,6 +214,6 @@ Retrieve the class of the student named **Marco Lanci**.
 - Creating new arrays based on existing data.
 - Choosing the most appropriate array method for each task.
 
-## ©️ Credits
+## Credits
 
-Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025–2026).
+Exercise assigned by **Boolean Tech Academy** as part of the Web Development course (Class 152, A.Y. 2025-2026).
