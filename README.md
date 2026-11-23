@@ -8,7 +8,7 @@ Practicing JavaScript array methods to iterate, transform, filter, and search ar
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-jsnacks-blocco-5 | JavaScript Array Methods Snacks | Exercise | JavaScript array methods & Data transformation | 29/50 |
+| js-jsnacks-blocco-5 | JavaScript Array Methods Snacks | Exercise | JavaScript, array methods & Data transformation | 29/50 |
 
 ## Assignment
 
@@ -17,15 +17,9 @@ Use the supplied exercise folder to create a new GitHub repository.
 Then solve the following JavaScript snacks using whichever **array methods** you
 consider most appropriate.
 
-#### Snack 1 - Print Names
+#### Snack 1 - Print names
 
-Given the following array:
-
-```javascript
-const names = ["Edoardo", "Simone", "Francesco"];
-```
-
-Print all the names to the console.
+Given the names array containing a list of names, print all the names to the console.
 
 **Expected output:**
 
@@ -33,19 +27,9 @@ Print all the names to the console.
 ("Edoardo", "Simone", "Francesco");
 ```
 
-#### Snack 2 - Print Names from Objects
+#### Snack 2 - Print names from objects
 
-Given the following array of objects:
-
-```javascript
-const people = [
-  { name: "Paolo", age: 35 },
-  { name: "Giulia", age: 24 },
-  { name: "Marco", age: 67 },
-];
-```
-
-Print all the names to the console.
+Given the people array containing objects with names and ages, print all the names to the console.
 
 **Expected output:**
 
@@ -53,15 +37,9 @@ Print all the names to the console.
 ("Paolo", "Giulia", "Marco");
 ```
 
-#### Snack 3 - Increment Numbers
+#### Snack 3 - Increment numbers
 
-Given the following array:
-
-```javascript
-const numbers = [2, 8, 4, 7, 2, 87];
-```
-
-Create a new array in which every number is incremented by 1.
+Given the numbers array containing numeric values, create a new array in which every number is incremented by 1.
 
 **Expected output:**
 
@@ -69,36 +47,20 @@ Create a new array in which every number is incremented by 1.
 [3, 9, 5, 8, 3, 88];
 ```
 
-#### Snack 4 - Extract Authors
+#### Snack 4 - Extract authors
 
 Given the following array of posts:
 
-```javascript
-const posts = [
-  { author: "Marco", date: "12/3/2021", content: "lorem ipsum..." },
-  { author: "Luca", date: "30/6/2021", content: "lorem ipsum..." },
-  { author: "Fabrizio", date: "12/9/2020", content: "lorem ipsum..." },
-  { author: "Enrico", date: "09/12/2021", content: "lorem ipsum..." },
-];
-```
-
-Create a new array containing the names of all the authors.
-
+Given the posts array containing objects with authors, dates, and content, create a new array containing the names of all the authors.
 **Expected output:**
 
 ```javascript
 ["Marco", "Luca", "Fabrizio", "Enrico"];
 ```
 
-#### Snack 5 - Filter Even Numbers
+#### Snack 5 - Filter even numbers
 
-Given the following array:
-
-```javascript
-const nums = [2, 8, 4, 7, 12, 87];
-```
-
-Create a new array containing only the even numbers from the original array.
+Given the nums array containing numeric values, create a new array containing only the even numbers.
 
 **Expected output:**
 
@@ -106,58 +68,16 @@ Create a new array containing only the even numbers from the original array.
 [2, 8, 4, 12];
 ```
 
-#### Snack 6 - Filter Zucchini by Length
+#### Snack 6 - Filter zucchini by length
 
-Given the following array:
+Given the zucchini array containing objects with the type, weight, and length of different zucchini, create two separate arrays.
 
-```javascript
-const zucchine = [
-  { type: "Napoletana", weight: 10, length: 4 },
-  { type: "Trombetta", weight: 13, length: 16 },
-  { type: "Napoletana", weight: 4, length: 23 },
-  { type: "Trombetta", weight: 11, length: 6 },
-  { type: "Napoletana", weight: 2, length: 17 },
-  { type: "Romana", weight: 5, length: 10 },
-  { type: "Romana", weight: 7, length: 9 },
-  { type: "Trombetta", weight: 3, length: 8 },
-  { type: "Calabrese", weight: 6, length: 27 },
-  { type: "Calabrese", weight: 14, length: 4 },
-];
-```
-
-Starting from the provided array, create two separate arrays:
-
-- One containing zucchini that are **at least 15 cm long**.
+- One containing zucchini that are at least 15 cm long.
 - Another containing all the remaining zucchini.
 
-#### Snack 7 - Find a Student by ID
+#### Snack 7 - Find a student by ID
 
-Given the following array:
-
-```javascript
-const students = [
-  {
-    id: 1,
-    name: "Marco Lanci",
-    age: 32,
-    class: "3C",
-  },
-  {
-    id: 2,
-    name: "Mario Banfi",
-    age: 34,
-    class: "4A",
-  },
-  {
-    id: 3,
-    name: "Luigi Banzi",
-    age: 33,
-    class: "5B",
-  },
-];
-```
-
-Retrieve the student whose ID is `2`.
+Given the students array containing student records, retrieve the student whose ID is 2.
 
 **Expected output:**
 
@@ -165,34 +85,9 @@ Retrieve the student whose ID is `2`.
 { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 ```
 
-#### Snack 8 - Find a Student's Class
+#### Snack 8 - Find a student's class
 
-Given the following array:
-
-```javascript
-const students = [
-  {
-    id: 1,
-    name: "Marco Lanci",
-    age: 32,
-    class: "3C",
-  },
-  {
-    id: 2,
-    name: "Mario Banfi",
-    age: 34,
-    class: "4A",
-  },
-  {
-    id: 3,
-    name: "Luigi Banzi",
-    age: 33,
-    class: "5B",
-  },
-];
-```
-
-Retrieve the class of the student named **Marco Lanci**.
+Given the students array containing student records, retrieve the class of the student named Marco Lanci.
 
 **Expected output:**
 
