@@ -8,16 +8,15 @@ Practicing JavaScript array methods to iterate, transform, filter, and search ar
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| js-jsnacks-blocco-5 | JavaScript Array Methods Snacks | Exercise | JavaScript, array methods & Data transformation | 29/50 |
+| js-jsnacks-blocco-5 | JavaScript Array Methods Snacks | Exercise | JavaScript, array methods, data transformation | 29/50 |
 
 ## Assignment
 
 Use the supplied exercise folder to create a new GitHub repository.
 
-Then solve the following JavaScript snacks using whichever **array methods** you
-consider most appropriate.
+Then solve the following JavaScript snacks using the most appropriate array methods.
 
-#### Snack 1 - Print names
+#### Snack 1: Print names
 
 Given the names array containing a list of names, print all the names to the console.
 
@@ -27,7 +26,7 @@ Given the names array containing a list of names, print all the names to the con
 ("Edoardo", "Simone", "Francesco");
 ```
 
-#### Snack 2 - Print names from objects
+#### Snack 2: Print names from objects
 
 Given the people array containing objects with names and ages, print all the names to the console.
 
@@ -37,7 +36,7 @@ Given the people array containing objects with names and ages, print all the nam
 ("Paolo", "Giulia", "Marco");
 ```
 
-#### Snack 3 - Increment numbers
+#### Snack 3: Increment numbers
 
 Given the numbers array containing numeric values, create a new array in which every number is incremented by 1.
 
@@ -47,18 +46,17 @@ Given the numbers array containing numeric values, create a new array in which e
 [3, 9, 5, 8, 3, 88];
 ```
 
-#### Snack 4 - Extract authors
-
-Given the following array of posts:
+#### Snack 4: Extract authors
 
 Given the posts array containing objects with authors, dates, and content, create a new array containing the names of all the authors.
+
 **Expected output:**
 
 ```javascript
 ["Marco", "Luca", "Fabrizio", "Enrico"];
 ```
 
-#### Snack 5 - Filter even numbers
+#### Snack 5: Filter even numbers
 
 Given the nums array containing numeric values, create a new array containing only the even numbers.
 
@@ -68,14 +66,14 @@ Given the nums array containing numeric values, create a new array containing on
 [2, 8, 4, 12];
 ```
 
-#### Snack 6 - Filter zucchini by length
+#### Snack 6: Filter zucchini by length
 
 Given the zucchini array containing objects with the type, weight, and length of different zucchini, create two separate arrays.
 
 - One containing zucchini that are at least 15 cm long.
 - Another containing all the remaining zucchini.
 
-#### Snack 7 - Find a student by ID
+#### Snack 7: Find a student by ID
 
 Given the students array containing student records, retrieve the student whose ID is 2.
 
@@ -85,7 +83,7 @@ Given the students array containing student records, retrieve the student whose 
 { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
 ```
 
-#### Snack 8 - Find a student's class
+#### Snack 8: Find a student's class
 
 Given the students array containing student records, retrieve the class of the student named Marco Lanci.
 
