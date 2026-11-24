@@ -47,7 +47,7 @@ Given the numbers array containing numeric values, create a new array in which e
 **Expected output:**
 
 ```javascript
-[3, 9, 5, 8, 3, 88];
+[3, 9, 5, 8, 3, 88]
 ```
 
 #### Snack 4: Extract authors
@@ -57,7 +57,7 @@ Given the posts array containing objects with authors, dates, and content, creat
 **Expected output:**
 
 ```javascript
-["Marco", "Luca", "Fabrizio", "Enrico"];
+["Marco", "Luca", "Fabrizio", "Enrico"]
 ```
 
 #### Snack 5: Filter even numbers
@@ -67,7 +67,7 @@ Given the nums array containing numeric values, create a new array containing on
 **Expected output:**
 
 ```javascript
-[2, 8, 4, 12];
+[2, 8, 4, 12]
 ```
 
 #### Snack 6: Filter zucchini by length
@@ -113,8 +113,8 @@ Given the students array containing student records, retrieve the class of the s
 
 **Expected output:**
 
-```javascript
-"3C";
+```text
+"3C"
 ```
 
 ## Technologies
