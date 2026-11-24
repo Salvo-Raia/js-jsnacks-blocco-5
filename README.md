@@ -34,8 +34,10 @@ Given the people array containing objects with names and ages, print all the nam
 
 **Expected output:**
 
-```javascript
-("Paolo", "Giulia", "Marco");
+```text
+Paolo
+Giulia
+Marco
 ```
 
 #### Snack 3: Increment numbers
@@ -78,23 +80,21 @@ Given the zucchini array containing objects with the type, weight, and length of
 **Example output:**
 
 ```javascript
-zucchineLunghe:
-[
+const zucchineLunghe = [
   { type: "Trombetta", weight: 13, length: 16 },
   { type: "Napoletana", weight: 4, length: 23 },
   { type: "Napoletana", weight: 2, length: 17 },
   { type: "Calabrese", weight: 6, length: 27 }
-]
+];
 
-zucchineCorte:
-[
+const zucchineCorte = [
   { type: "Napoletana", weight: 10, length: 4 },
   { type: "Trombetta", weight: 11, length: 6 },
   { type: "Romana", weight: 5, length: 10 },
   { type: "Romana", weight: 7, length: 9 },
   { type: "Trombetta", weight: 3, length: 8 },
   { type: "Calabrese", weight: 14, length: 4 }
-]
+];
 ```
 
 #### Snack 7: Find a student by ID
