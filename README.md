@@ -73,6 +73,28 @@ Given the zucchini array containing objects with the type, weight, and length of
 - One containing zucchini that are at least 15 cm long.
 - Another containing all the remaining zucchini.
 
+**Example output:**
+
+```javascript
+zucchineLunghe:
+[
+  { type: "Trombetta", weight: 13, length: 16 },
+  { type: "Napoletana", weight: 4, length: 23 },
+  { type: "Napoletana", weight: 2, length: 17 },
+  { type: "Calabrese", weight: 6, length: 27 }
+]
+
+zucchineCorte:
+[
+  { type: "Napoletana", weight: 10, length: 4 },
+  { type: "Trombetta", weight: 11, length: 6 },
+  { type: "Romana", weight: 5, length: 10 },
+  { type: "Romana", weight: 7, length: 9 },
+  { type: "Trombetta", weight: 3, length: 8 },
+  { type: "Calabrese", weight: 14, length: 4 }
+]
+```
+
 #### Snack 7: Find a student by ID
 
 Given the students array containing student records, retrieve the student whose ID is 2.
