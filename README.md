@@ -22,8 +22,10 @@ Given the names array containing a list of names, print all the names to the con
 
 **Expected output:**
 
-```javascript
-("Edoardo", "Simone", "Francesco");
+```text
+Edoardo
+Simone
+Francesco
 ```
 
 #### Snack 2: Print names from objects
