@@ -114,7 +114,7 @@ Given the students array containing student records, retrieve the class of the s
 **Expected output:**
 
 ```text
-"3C"
+3C
 ```
 
 ## Technologies
